@@ -18,6 +18,8 @@ int product(int *list, int size)
 	return product;
 }
 
+
+
 int main ()
 {
     int size =10;
