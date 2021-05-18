@@ -1,4 +1,3 @@
-//test
 #include <iostream>
 
 int sum(int *list, int size)
