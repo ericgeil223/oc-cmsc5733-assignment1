@@ -32,13 +32,20 @@ int main ()
 {
     int size =10;
     int arr[10];
+    int reverse[10];
     int sum, prod =0;
     cout << "Enter 10 integers to be summed and producted";
-    for (int i =0; i<size; ++i){
+    for (int i =0; i<size; i++){
         cin>> arr[i];
     }
     sum = sum(&arr, size);
     prod = prod(&arr, size);
     cout << "Sum = " <<sum << endl;
     cout << "Product =" <<prod << endl;
+    cout << "Reverse order =";
+    reverse (&arr, &reverse, size);
+        for (int i =0; i<size; i++){
+        cout<< reverse[i] << " ";
+    }
+    
 }
